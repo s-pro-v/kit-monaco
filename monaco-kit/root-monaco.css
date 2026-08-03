@@ -1,0 +1,185 @@
+:root {
+    --oi-color-1: #fafafa;
+    --oi-color-2: #f36c00;
+    --oi-color-3: #28a745;
+    --oi-color-4: #dc3545;
+    --oi-color-5: #ffc107;
+    --oi-color-6: #17a2b8;
+    --oi-border-7: #dee2e6;
+    --oi-color-8: #3b82f6;
+    --oi-color-9: #16a34a;
+    --oi-color-10: #dc2626;
+    --oi-color-11: #f0f0f0;
+    --oi-color-12: #fff;
+    --oi-color-13: #ffffff;
+    --oi-color-14: #212529;
+    --oi-color-15: #6c757d;
+    --oi-border-16: #e0e0e0;
+    --oi-color-17: #eee;
+    --oi-color-18: rgba(0, 0, 0, 0.03);
+    --oi-color-19: rgba(0, 0, 0, 0.04);
+    --oi-shadow-20: rgba(0, 0, 0, 0.3);
+    --oi-shadow-21: rgba(78, 78, 78, 0.185);
+    --oi-shadow-22: rgba(0, 0, 0, 0.1);
+    --oi-color-23: rgba(0, 0, 0, 0.06);
+    --oi-color-24: #1a1a1a;
+    --oi-color-25: #121212;
+    --oi-color-26: #1e1e1e;
+    --oi-color-27: #252526;
+    --oi-color-28: #2e2e2e;
+    --oi-border-29: #2a2a2a;
+    --oi-color-30: #303030;
+    --oi-color-31: #858585;
+    --oi-color-32: #000;
+    --oi-color-33: #0d0d0d;
+    --oi-border-34: #444;
+    --oi-color-35: #3c3c3c;
+    --oi-bg-36: rgba(255, 255, 255, 0.03);
+    --oi-shadow-37: rgba(32, 32, 32, 0.4);
+    --oi-shadow-38: rgba(0, 0, 0, 0.65);
+    --oi-shadow-39: rgba(255, 255, 255, 0.08);
+    --oi-shadow-40: rgba(0, 0, 0, 0.8);
+    --oi-color-41: rgba(255, 255, 255, 0.06);
+    --oi-bg-42: rgba(255, 115, 0, 0.08);
+    --oi-shadow-43: rgba(0, 0, 0, 0.2);
+    --oi-bg-44: rgba(255, 255, 255, 0.2);
+    --oi-color-45: rgba(0, 0, 0, 0.08);
+}
+
+/* INTEGRACJA Z TWOIM SYSTEMEM PROJEKTOWYM */
+:root {
+    /* --oi-- COLORS: PALETTE --oi-- */
+    --oi-bg-color: var(--oi-color-1);
+    --oi-highlight-color: var(--oi-color-2);
+    --oi-success-color: var(--oi-color-3);
+    --oi-danger-color: var(--oi-color-4);
+    --oi-warning-color: var(--oi-color-5);
+    --oi-info-color: var(--oi-color-6);
+    --oi-border-color: var(--oi-border-7);
+    --oi-vs-vi-color: var(--oi-color-8);
+    --oi-tak-color: var(--oi-color-9);
+    --oi-nie-color: var(--oi-color-10);
+
+    /* --oi-- SETTINGS --oi-- */
+    --oi-font-family: "JetBrains Mono", monaco, courier, monospace;
+    --oi-font-main: var(--oi-font-family);
+    --oi-transition-speed: 0.2s;
+    --oi-screen-bg: var(--oi-color-11);
+
+    /* --oi-- LIGHT THEME DEFAULTS --oi-- */
+    --oi-bg: var(--oi-color-1);
+    --oi-bg-primary: var(--oi-color-12);
+    --oi-bg-secondary: var(--oi-color-1);
+    --oi-bg-tertiary: var(--oi-color-12);
+    --oi-highlight: var(--oi-highlight-color);
+    --oi-panel-bg: var(--oi-color-1);
+    --oi-card-bg: var(--oi-color-13);
+
+    --oi-text-color: var(--oi-color-14);
+    --oi-text-primary: var(--oi-color-14);
+    --oi-text-muted: var(--oi-color-15);
+    --oi-text-inverse: var(--oi-color-12);
+    --oi-timestamp-color: var(--oi-highlight-color);
+
+    --oi-border-color-hover: var(--oi-border-16);
+    --oi-hover-bg: var(--oi-color-17);
+    --oi-grid-color: var(--oi-color-18);
+    --oi-pattern-color: var(--oi-color-19);
+
+    --oi-metal-gradient: linear-gradient(
+        165deg,
+        var(--oi-bg-primary) 0%,
+        var(--oi-panel-bg) 45%,
+        var(--oi-border-color-hover) 100%
+    );
+    --oi-shadow-drop: var(--oi-shadow-20) 0px 1px 2px 0px, var(--oi-shadow-21) 0px 2px 6px 2px;
+    --oi-shadow-inset: inset var(--oi-shadow-21) 0px 2px 6px 2px, inset var(--oi-shadow-20) 0px 1px 2px 0px;
+    --oi-shadow-active: inset 0 2px 4px var(--oi-shadow-22);
+
+    --oi-bg-grid-size: 20px 20px;
+    --oi-bg-grid:
+        linear-gradient(var(--oi-grid-color) 1px, transparent 1px),
+        linear-gradient(90deg, var(--oi-grid-color) 1px, transparent 1px);
+    --oi-stripe-accent: var(--oi-color-23);
+    --oi-bg-stripe-pattern: linear-gradient(
+        135deg,
+        transparent 0%,
+        transparent 25%,
+        var(--oi-stripe-accent) 25%,
+        var(--oi-stripe-accent) 50%,
+        transparent 50%,
+        transparent 75%,
+        var(--oi-stripe-accent) 75%,
+        var(--oi-stripe-accent) 100%
+    );
+    --oi-bg-stripe-size: 20px 20px;
+    --oi-background-v: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        var(--oi-grid-color) 10px,
+        var(--oi-grid-color) 11px
+    );
+}
+
+:root[theme="dark"] {
+    /* --oi-- DARK THEME OVERRIDES --oi-- */
+    --oi-bg-color: var(--oi-color-24);
+    --oi-bg: var(--oi-color-25);
+    --oi-bg-primary: var(--oi-color-26);
+    --oi-bg-secondary: var(--oi-color-27);
+    --oi-bg-tertiary: var(--oi-color-28);
+    --oi-border-color: var(--oi-border-29);
+    --oi-panel-bg: var(--oi-border-29);
+    --oi-card-bg: var(--oi-color-30);
+
+    --oi-text-color: var(--oi-border-16);
+    --oi-text-primary: var(--oi-border-16);
+    --oi-text-muted: var(--oi-color-31);
+    --oi-text-inverse: var(--oi-color-32);
+    --oi-screen-bg: var(--oi-color-33);
+
+    --oi-border-color-hover: var(--oi-border-34);
+    --oi-hover-bg: var(--oi-color-35);
+    --oi-grid-color: var(--oi-bg-36);
+    --oi-pattern-color: var(--oi-bg-36);
+
+    --oi-metal-gradient: linear-gradient(
+        165deg,
+        var(--oi-panel-bg) 0%,
+        var(--oi-bg-primary) 45%,
+        var(--oi-bg-tertiary) 100%
+    );
+    --oi-shadow-drop:
+        var(--oi-shadow-37) 0px 0px 0px 2px, var(--oi-shadow-38) 0px 4px 6px -1px, var(--oi-shadow-39) 0px 1px 0px inset;
+    --oi-shadow-inset:
+        inset 0px 0px 0px 2px var(--oi-shadow-37), inset 0px 4px 6px -1px var(--oi-shadow-38),
+        inset 0px 1px 0px var(--oi-shadow-39);
+    --oi-shadow-active: inset 0 1px 2px var(--oi-shadow-40);
+
+    --oi-bg-grid-size: 20px 20px;
+    --oi-bg-grid:
+        linear-gradient(var(--oi-grid-color) 1px, transparent 1px),
+        linear-gradient(90deg, var(--oi-grid-color) 1px, transparent 1px);
+
+    --oi-stripe-accent: var(--oi-color-41);
+    --oi-bg-stripe-pattern: linear-gradient(
+        135deg,
+        var(--oi-bg-tertiary) 0%,
+        var(--oi-bg-tertiary) 25%,
+        var(--oi-stripe-accent) 25%,
+        var(--oi-stripe-accent) 50%,
+        var(--oi-bg-tertiary) 50%,
+        var(--oi-bg-tertiary) 75%,
+        var(--oi-stripe-accent) 75%,
+        var(--oi-stripe-accent) 100%
+    );
+    --oi-bg-stripe-size: 20px 20px;
+    --oi-background-v: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        var(--oi-grid-color) 10px,
+        var(--oi-grid-color) 11px
+    );
+}
